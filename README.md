@@ -304,5 +304,5 @@ square = lambda x: x ** 2  # Usage: square(3) -> 9
     - lab3f.py
     - lab3g.py
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
-- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as "Satisfactory" with a grade of 0, provided the work is satisfactory.
+- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as **Satisfactory** with a grade of 0, provided the work is satisfactory.
 
