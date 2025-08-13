@@ -117,7 +117,6 @@ print(result)
 ```
 
 ## lab3a.py - Simple Function
-
 **Objective:** Python function that checks whether any number in a list is even using a loop and conditional logic.
 
 **Instructions:**
@@ -139,6 +138,7 @@ print(result)
 
 ## lab3b.py - Filtering Even Numbers
 **Objective:** Write a Python function that returns a new list containing only the even numbers from a given list.
+
 **Instructions:** 
 
 - Open the file `lab3b.py` and fill in the required fields in the comment section.
@@ -163,7 +163,6 @@ In this next example, write a function `sum` that takes two numbers as parameter
 
 
 ### lab3c.py - Using the `main()` Function
-
 **Objective:** Introduce the use of the `main()` function as the entry point of a Python program and practice calling another function from within it.
 
 **Instructions:**
