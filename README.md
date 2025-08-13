@@ -248,16 +248,16 @@ print(compute(num1=13, num2=45))  # Uses default operation '+'
 - Store the result in a list variable.
 - Print the result.
 - Run your script to test its functionality.
-- SAmple Output:
-  ```Python
-print(get_initials("Emma", "Olivia", "Sophia"))
-# Output: ['E', 'O', 'S']
+**Sample Output**
+```Python
+print(get_initials("Emma", "Maija", "Sophia"))
+#Output: ['E', 'M', 'S']
 
 print(get_initials("John"))
-# Output: ['J']
+#Output: ['J']
 
-print(get_initials("Mike", "molly", "Max"))
-# Output: ['M', 'm', 'M']  # Case preserved exactly as in input
+print(get_initials("Olivia", "Ravi", "Chen", "Fatima"))
+#Output: ['AO', 'R', 'C', 'F']  # Case preserved exactly as in input
 ```
 
  ## lab4g.py  (Optional Activity: Adavanced Level)
