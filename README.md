@@ -184,24 +184,26 @@ Note that the above line checks whether the script is being run directly or bein
 - Run your script to test it.
 
 
-## lab4d.py 
-### Writing the complete calculator function using default parameters and positional parameters
-Positional parameters are arguments passed to a function based on their position (order) in the function definition.
-When calling the function, the first argument provided is assigned to the first parameter, the second argument to the second parameter, and so on. Default parameters are explained above. 
+### lab3d.py - Writing the complete calculator function using default parameters and positional parameters
+**Objective:** Understand how to use **positional parameters** and **default parameters** in Python functions. Positional parameters are assigned based on the order of arguments passed, while default parameters provide fallback values when arguments are not supplied.
 
+**Instructions:**
+- Open the file `lab3d.py` and fill in the required fields in the comment section:
+- Write a function named `compute` that:
+  - Takes three parameters:
+    - `num1`: the first number
+    - `num2`: the second number
+    - `operation`: a symbol (`+`, `-`, `*`, `/`) with a default value of `+`
+  - Performs the specified operation on the two numbers.
+  - Returns the result.
+Write a `main()` function that:
+  - Prompts the user to enter two numbers.
+  - Prompts the user to choose an operation (`+`, `-`, `*`, `/`).
+  - Calls the `compute()` function using **positional parameters**.
+  - Stores the result in a variable.
+  - Prints the result for the user.
 
-- Fill in the required fields in the comment section.
-- Write a function `compute` which takes three parameters; two numbers and one operation.
-    - first parameter is num1
-    - second parameter is num2
-    - third parameters is the operation as a symbol ( +, -, *, /)
-    - third parameter should have a default value of +
-
-- The function performs the required operation on the two numbers and returns the result. The function should receive the parameters as positional parameters.
-- Write the `main` functions.
-- In the main function get two numbers from user.
-- In the main also ask the user to chose which operation they want to perform. Show the operation symbols in the prompt.
-- Call the  `compute` function as follows:
+- Demonstrate the function with the following calls:
     ``` python
     compute(13,45,'*')
     compute(13,45,'/')
@@ -210,7 +212,7 @@ When calling the function, the first argument provided is assigned to the first 
     compute(13,45)  # since only two parameters are passed the default value of symbol should be used.
     
     ```
-- Call the main function in the conditional statement as shown above in `lab4c`.
+- Call the main function in the conditional statement as shown above in `lab3c`.
 - Run your script to test it.
 
 
