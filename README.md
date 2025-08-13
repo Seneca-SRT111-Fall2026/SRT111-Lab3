@@ -135,12 +135,10 @@ print(result)
 - Prints the boolean variable.
 - Run your script to test it.
 
-
 ## lab3b.py - Filtering Even Numbers
 **Objective:** Write a Python function that returns a new list containing only the even numbers from a given list.
 
 **Instructions:** 
-
 - Open the file `lab3b.py` and fill in the required fields in the comment section.
 - Write a function named `even_numbers` that:
      - Takes a list of integers as an argument.
@@ -210,7 +208,6 @@ Write a `main()` function that:
     compute(13,45,'-')
     compute(13,45,'+')
     compute(13,45)  # since only two parameters are passed the default value of symbol should be used.
-    
     ```
 - Call the main function in the conditional statement as shown above in `lab3c`.
 - Run your script to test it.
@@ -220,7 +217,6 @@ Write a `main()` function that:
 **Objective:** Learn how to use **keyword parameters** in Python functions. Keyword arguments allow you to pass values to function parameters by explicitly naming them, enabling flexibility in the order of arguments.
 
 **Instructions:**
-
 - Open the file `lab3e.py` and fill in the required fields in the comment section:
 - Copy the code from `lab3d.py`.
 - Modify the `compute()` function so that it uses **keyword parameters** instead of positional parameters when being called.
