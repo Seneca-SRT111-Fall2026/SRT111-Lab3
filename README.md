@@ -143,12 +143,12 @@ print(result)
 
 - Open the file `lab3b.py` and fill in the required fields in the comment section.
 - Write a function named `even_numbers` that:
-  - Takes a list of integers as an argument.
-  - Uses a `for` loop to iterate through the list.
-  - Checks each element to see if it is even.
-  - Adds even numbers to a new list.
-  - Returns the new list of even numbers.
-  - If no even numbers are found, return an empty list.
+     - Takes a list of integers as an argument.
+     - Uses a `for` loop to iterate through the list.
+     - Checks each element to see if it is even.
+     - Adds even numbers to a new list.
+     - Returns the new list of even numbers.
+     - If no even numbers are found, return an empty list.
 - After defining the function, create a list of 8 integer values outside the function.
 - Call the `even_numbers()` function with that list.
 - Store the result in a new list variable. 
