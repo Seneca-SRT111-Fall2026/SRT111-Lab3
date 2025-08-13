@@ -234,18 +234,31 @@ print(compute(num2=45, num1=13, operation='-'))
 print(compute(num1=13, num2=45, operation='+'))
 print(compute(num1=13, num2=45))  # Uses default operation '+'
 ```
-## lab3f.py
-### Using variable number of arguments with *args
-- Fill in the required fields in the comment section.
-- Write a function called `get_initials` that returns the first letter from each provided name. It can handle a variable number of name inputs.
-- The function uses `*args` to accept a variable number of name inputs.
-- The function iterates through each name and extract the first letter.
-- The function collects these first letters into a list.
-- Finally, the function returns the list of initials.
-- Given the names "Alice", "Bob", "Charlie", and "David", the function will return the list `['A', 'B', 'C', 'D']`.
-- Call the  `get_initials` function from `main` function and receive the result in a list variable.
-- Print the result in `main`.
-- Run your script to test it.
+## lab3f.py - Using variable number of arguments with `*args`
+**Objective:** how to use `*args` to accept a variable number of arguments in a Python function. This allows the function to handle flexible input sizes.
+
+**Instructions:**
+- Open the file `lab3f.py` and fill in the required fields in the comment section:
+- Write a function named `get_initials` that:
+  - Uses `*args` to accept a variable number of name inputs.
+  - Iterates through each name and extracts the first letter.
+  - Collects these first letters into a list.
+  - Returns the list of initials.
+- Call the `get_initials()` function with the names `"Alice"`, `"Bob"`, `"Charlie"`, and `"David"`.
+- Store the result in a list variable.
+- Print the result.
+- Run your script to test its functionality.
+- SAmple Output:
+  ```Python
+print(get_initials("Emma", "Olivia", "Sophia"))
+# Output: ['E', 'O', 'S']
+
+print(get_initials("John"))
+# Output: ['J']
+
+print(get_initials("Mike", "molly", "Max"))
+# Output: ['M', 'm', 'M']  # Case preserved exactly as in input
+```
 
  ## lab4g.py  (Optional Activity: Adavanced Level)
 ### Using map, filter and lambda expressions.
