@@ -3,6 +3,6 @@
 # Author:
 # Date:
 # Purpose: use the main Function as entry point.
-# Usage: ./lab4c.py
+# Usage: ./lab3c.py
 
 # Follow the instructions from readme.md.
