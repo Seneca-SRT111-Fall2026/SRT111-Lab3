@@ -265,6 +265,7 @@ print(get_initials("Olivia", "Ravi", "Chen", "Fatima"))
 - Applying a transformation to all elements in a list using map with lambda.
 - Selecting specific elements from a list using filter with lambda.
 - Understanding how lambda creates quick, anonymous functions for short operations.
+**Example:** For example, comparing map to "putting every item on a conveyor belt to be processed" and filter to "only letting certain items through a quality check gate". 
 
 **map()** applies a function to all items in an iterable.
 
