@@ -1,32 +1,42 @@
-# PRG101-Lab4
-### Submission Details
+# Lab4
+In this lab, you will create six simple Python scripts. All scripts must be written in GitHub Codespaces. This lab focuses on writing functions.
+You will explore how to define and use functions in Python to solve problems more efficiently. Through hands-on practice, you'll learn how functions improve code organization, readability, and reusability — essential skills for building scalable programs.
 
-In this lab, you will create 5 simple scripts (and an optional sixth script). Write the scripts in GitHub codespaces. 
-Please note that you must complete the lab during class hours and show your progress to the professor to receive the marks for the lab.
-
-### Lab Objectives
+# Lab Objectives
 - To be able to write the programs using functions.
 - Reinforce the concept of conditions and loops.
 - Build logic to solve a computational problem.
-  
+
+# Submission Instructions
+For each task:
+1. **Write the script** in Codespaces.  
+2. **Run the script** from the **terminal**.  
+3. **Take a screenshot** that clearly shows:  
+   - Your **code** in the editor.  
+   - The **terminal output**, including your **username** visible in the terminal.  
+4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
+   - Example: **Lab3a**, **Lab3b**, **Lab3c**, etc.  
+5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **Seneca username**, for example salim123.pdf
+6. **Submit the PDF file** as your final lab submission on Blackbaord.
+
 ## INVESTIGATION 1: Functions
 
-A function is a block of code that performs a specific task. Functions help to organize code, make it reusable, and improve readability. 
-Functions help us avoid writing the same code repeatedly. If you remember, we used the len() function to determine the length of a string. Since measuring the length of a sequence (string or list) is a frequent task, it makes sense to have a function that can perform this action whenever needed.
-Functions are among the most fundamental tools for reusing code in Python, and they also introduce us to the concept of program design. You should use functions when you anticipate reusing a block of code multiple times. By defining a function, you can call the same code without needing to rewrite it, which helps in creating more complex Python scripts.
+A function is a block of code that performs a specific task. Functions help organize code, make it reusable, and improve readability. They allow us to avoid writing the same code repeatedly. For example, we’ve used the len() function to determine the length of a string. Since measuring the length of a sequence (string or list) is a frequent task, it makes sense to have a function that performs this action whenever needed.
+
+Functions are among the most fundamental tools for reusing code in Python. They also introduce us to the concept of program design. You should use functions when you anticipate reusing a block of code multiple times. By defining a function, you can call the same code without rewriting it, which helps in creating more complex Python scripts.
 Let's see how to create our own functions.
 
 ### Defining a Function
 
-To define a function in Python, use the `def` keyword followed by the function name and parentheses (). Make sure the name is relevant and does not conflict with built-in Python functions like `round` or `print`.
+To define a function in Python, use the `def` keyword followed by the function name and parentheses (). Make sure the name is relevant and does not conflict with built-in Python functions like round or print.
 
-Next, include any arguments your function needs inside the parentheses, separated by commas. These arguments are the inputs for your function, and you can reference them within the function. After the parentheses, add a colon ":" 
+Next, include any arguments your function needs inside the parentheses, separated by commas. These arguments are the inputs for your function, and you can reference them within the function. After the parentheses, add a colon :.
 
 On the next line, write the indented block of code that forms the body of the function.
-Inside the body of the function, as a convention, and, as a good programming practice you shouldstart with the docstring. This is where you write a basic description of the function so that you can refer to it when you comeback to your code later, or, if you are working in a team, so that your team members can know what is this function about.
-After the docsting you write the logic and code of your function.
-Functions can also return a value or multiple values (all packed as a tuple).
 
+Inside the body of the function, it is good practice to start with a docstring — a brief description of what the function does. This helps you (and others) understand the function later, especially when working in teams.
+
+After the docstring, write the logic and code of your function. Functions can also return a value or multiple values (packed as a tuple).
 
 #### Syntax
 
@@ -106,10 +116,13 @@ print(result)
 # Output; 20
 ```
 
-## lab4a.py 
-### Simple Function
+## lab3a.py - Simple Function
 
-- Fill in the required fields in the comment section.
+**Objective:** Python function that checks whether any number in a list is even using a loop and conditional logic.
+
+**Instructions**
+
+- Open the file Lab3a.py Fill in the required fields in the comment section.
 - Write a function with the name `is_even`. The function takes a list as a parameter and returns `True` if any number in the list is even, the function returns `False` otherwise.
 - You must use a `for` loop to iterate over each element of the list.
 - You must use an `if` statement to check if an element is even.
