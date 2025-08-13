@@ -4,6 +4,6 @@
 # Author:
 # Date:
 # Purpose: Practice map, filter and lambda expressions.
-# Usage: ./lab4g.py
+# Usage: ./lab3g.py
 
 # Follow the instructions from readme.md.
