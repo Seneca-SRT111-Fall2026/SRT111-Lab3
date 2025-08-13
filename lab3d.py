@@ -4,6 +4,6 @@
 # Author:
 # Date:
 # Purpose: Create the complete calculator function using default parameters and positional parameters
-# Usage: ./lab4d.py
+# Usage: ./lab3d.py
 
 # Follow the instructions from readme.md.
