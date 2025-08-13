@@ -1,4 +1,4 @@
-# Lab4
+# Lab 3
 In this lab, you will create six simple Python scripts. All scripts must be written in GitHub Codespaces. This lab focuses on writing functions.
 You will explore how to define and use functions in Python to solve problems more efficiently. Through hands-on practice, you'll learn how functions improve code organization, readability, and reusability — essential skills for building scalable programs.
 
