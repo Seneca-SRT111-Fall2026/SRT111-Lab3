@@ -244,7 +244,7 @@ print(compute(num1=13, num2=45))  # Uses default operation '+'
   - Iterates through each name and extracts the first letter.
   - Collects these first letters into a list.
   - Returns the list of initials.
-- Call the `get_initials()` function with the names `"Alice"`, `"Bob"`, `"Charlie"`, and `"David"`.
+- Call the `get_initials()` function with the names "Samuel", "Ravi", "Chen", "Fatima".
 - Store the result in a list variable.
 - Print the result.
 - Run your script to test its functionality.
@@ -260,8 +260,12 @@ print(get_initials("Olivia", "Ravi", "Chen", "Fatima"))
 #Output: ['AO', 'R', 'C', 'F']  # Case preserved exactly as in input
 ```
 
- ## lab4g.py  (Optional Activity: Adavanced Level)
-### Using map, filter and lambda expressions.
+### lab3g.py - Using map, filter and lambda expressions.
+**Objectives:** "Learn how to use Python’s map(), filter(), and lambda functions to process lists efficiently.
+- Applying a transformation to all elements in a list using map with lambda.
+- Selecting specific elements from a list using filter with lambda.
+- Understanding how lambda creates quick, anonymous functions for short operations.
+- 
 map() applies a function to all items in an iterable.
 
 ```Python
@@ -279,22 +283,25 @@ lambda creates small, anonymous functions for quick, on-the-fly use.
 ```Python
 square = lambda x: x ** 2  # Usage: square(3) -> 9
 ```
-- Create a variable list named numbers containing numbers from 2 to 10.
-- square all elements of this list using map and lambda function.
-- Print variable numbers.
-- Make a new variable named divisible_by_2.
-- Filters out all numbers from numbers list that are divisible by 2 using filter and lambda, and save them in this variable.
-- Print variable divisible_by_2.
 
-## Lab 4 Sign-Off
-- Submit the screenshots of each individual script, the screenshot must show your scripts and command line interface and output.
-- The screenshot must also show your username on github codespaces.
-- Submit individual screenshots of the following scripts on blackboard. If the screenshots do not correctly show the information mentioned above, you will get zero marks for the lab.
-    - lab4a.py
-    - lab4b.py
-    - lab4c.py
-    - lab4d.py
-    - lab4e.py
-    - lab4f.py
-    
-    
+**Instructions:**
+- Create a variable numbers containing numbers from 2 to 10.
+- Square all elements of this list using map and a lambda function.
+   - Store the result back in numbers.
+- Print the variable numbers.
+- Create a new variable named divisible_by_2.
+- Use filter and a lambda function to select all numbers from numbers that are divisible by 2.
+- Print the variable divisible_by_2.
+  
+## Lab 3 Sign-Off
+- Submit a PDF named using your Seneca username, .pdf on Blackbaord.
+- The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
+    - lab3a.py
+    - lab3b.py
+    - lab3c.py
+    - lab3d.py
+    - lab3e.py
+    - lab3f.py
+- Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
+- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as "Satisfactory" with a grade of 0, provided the work is satisfactory.
+
