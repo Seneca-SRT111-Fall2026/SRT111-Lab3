@@ -224,7 +224,6 @@ Write a `main()` function that:
   - The function definition remains the same.
   - All function calls explicitly name the parameters (e.g., `compute(num1=13, num2=45, operation='*')`).
   - You demonstrate that keyword arguments allow calling the function with parameters in any order.
-
 - Refer to your lesson slides if you need help on how to use keyword arguments.
 - Run your script to test its functionality.
 - Following are the function calls using keyword arguments
@@ -235,7 +234,7 @@ print(compute(num2=45, num1=13, operation='-'))
 print(compute(num1=13, num2=45, operation='+'))
 print(compute(num1=13, num2=45))  # Uses default operation '+'
 ```
-## lab4f.py
+## lab3f.py
 ### Using variable number of arguments with *args
 - Fill in the required fields in the comment section.
 - Write a function called `get_initials` that returns the first letter from each provided name. It can handle a variable number of name inputs.
