@@ -216,15 +216,29 @@ Write a `main()` function that:
 - Run your script to test it.
 
 
-## lab4e.py 
-### Writing the complete calculator function using keyword parameters
-Keyword parameters (or keyword arguments) are arguments passed to a function by explicitly naming each parameter, allowing you to pass arguments out of order.
-- Fill in the required fields in the comment section.
-- Copy the code from lab4d.py and modify the parameters to behave as keyword parameters rather than positional parameters.
-- Refer to lesson slides if you need help on how to use keyword arguments.
-- Run your script to test it.
+## lab3e.py - Writing the complete calculator function using keyword parameters
+**Objective:** Learn how to use **keyword parameters** in Python functions. Keyword arguments allow you to pass values to function parameters by explicitly naming them, enabling flexibility in the order of arguments.
 
+**Instructions:**
 
+- Open the file `lab3e.py` and fill in the required fields in the comment section:
+- Copy the code from `lab3d.py`.
+- Modify the `compute()` function so that it uses **keyword parameters** instead of positional parameters when being called.
+- Ensure that:
+  - The function definition remains the same.
+  - All function calls explicitly name the parameters (e.g., `compute(num1=13, num2=45, operation='*')`).
+  - You demonstrate that keyword arguments allow calling the function with parameters in any order.
+
+- Refer to your lesson slides if you need help on how to use keyword arguments.
+- Run your script to test its functionality.
+**Function calls using keyword arguments**
+```Python
+print(compute(num1=13, num2=45, operation='*'))
+print(compute(operation='/', num2=45, num1=13))
+print(compute(num2=45, num1=13, operation='-'))
+print(compute(num1=13, num2=45, operation='+'))
+print(compute(num1=13, num2=45))  # Uses default operation '+'
+```
 ## lab4f.py
 ### Using variable number of arguments with *args
 - Fill in the required fields in the comment section.
