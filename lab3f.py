@@ -4,6 +4,6 @@
 # Author:
 # Date:
 # Purpose: Practice variable number of arguments with *args
-# Usage: ./lab4f.py
+# Usage: ./lab3f.py
 
 # Follow the instructions from readme.md.
