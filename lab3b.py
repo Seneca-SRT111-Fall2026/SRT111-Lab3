@@ -4,7 +4,7 @@
 # Author:
 # Date:
 # Purpose: Create Some Complex Functions.
-# Usage: ./lab4b.py
+# Usage: ./lab3b.py
 
 # TO DO 1: Add the docstring
 # @Function definition: add definition here
