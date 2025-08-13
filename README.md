@@ -122,15 +122,21 @@ print(result)
 
 **Instructions**
 
-- Open the file Lab3a.py Fill in the required fields in the comment section.
-- Write a function with the name `is_even`. The function takes a list as a parameter and returns `True` if any number in the list is even, the function returns `False` otherwise.
-- You must use a `for` loop to iterate over each element of the list.
-- You must use an `if` statement to check if an element is even.
-- As soon as you find the first even element, `break` out of the loop.
-- Call the function with a list of 6 integer values. Receive the result in a boolean variable.
-- Print the boolean variable.
+- Open the file Lab3a.py and fill in the required fields in the comment section.
+- Write a function with the name `is_even` that:  
+   - Takes a list as a parameter.
+   - Uses a `for` loop to iterate over each element of the list.
+   - Uses an `if` statement to check if an element is even.
+   - Returns `True` if any number in the list is even. As soon as you find the first even element, `break` out of the loop.
+   - Returns `False` otherwise.
+   - As soon as you find the first even element, `break` out of the loop.
+- Define a `main()` function that:
+  - Creates a list of 6 integer values.
+  - Calls the `is_even()` function with that list.
+  - Stores the result in a boolean variable.
+  - Prints the boolean variable.
+- Call `main()` at the end of your script.
 - Run your script to test it.
-
 
 
 ## lab4b.py 
