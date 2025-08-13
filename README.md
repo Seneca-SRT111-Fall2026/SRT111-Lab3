@@ -167,9 +167,7 @@ In this next example, write a function `sum` that takes two numbers as parameter
 **Objective:** Introduce the use of the `main()` function as the entry point of a Python program and practice calling another function from within it.
 
 **Instructions:**
-
 - Open the file `lab3c.py` and fill in the required fields in the comment section:
-
 - Write a function named `sum` that:
   - Takes two numbers as parameters.
   - Returns the sum of the two numbers.
