@@ -265,20 +265,20 @@ print(get_initials("Olivia", "Ravi", "Chen", "Fatima"))
 - Applying a transformation to all elements in a list using map with lambda.
 - Selecting specific elements from a list using filter with lambda.
 - Understanding how lambda creates quick, anonymous functions for short operations.
-- 
-map() applies a function to all items in an iterable.
+
+**map()** applies a function to all items in an iterable.
 
 ```Python
 result = map(lambda x: x * 2, [1, 2, 3])  # Output: [2, 4, 6]
 ```
 
-filter() selects items from an iterable based on a function that returns True or False.
+**filter()** selects items from an iterable based on a function that returns True or False.
 
 ```Python
 result = filter(lambda x: x > 2, [1, 2, 3, 4])  # Output: [3, 4]
 ```
 
-lambda creates small, anonymous functions for quick, on-the-fly use.
+**lambda** creates small, anonymous functions for quick, on-the-fly use.
 
 ```Python
 square = lambda x: x ** 2  # Usage: square(3) -> 9
