@@ -120,7 +120,7 @@ print(result)
 
 **Objective:** Python function that checks whether any number in a list is even using a loop and conditional logic.
 
-**Instructions**
+**Instructions:**
 
 - Open the file Lab3a.py and fill in the required fields in the comment section.
 - Write a function with the name `is_even` that:  
@@ -130,24 +130,30 @@ print(result)
    - Returns `True` if any number in the list is even. As soon as you find the first even element, `break` out of the loop.
    - Returns `False` otherwise.
    - As soon as you find the first even element, `break` out of the loop.
-- Define a `main()` function that:
-  - Creates a list of 6 integer values.
-  - Calls the `is_even()` function with that list.
-  - Stores the result in a boolean variable.
-  - Prints the boolean variable.
-- Call `main()` at the end of your script.
+- Outside and after the  `is_even` function, creates a list of 6 integer values.
+- Calls the `is_even()` function with that list.
+- Stores the result in a boolean variable.
+- Prints the boolean variable.
 - Run your script to test it.
 
 
-## lab4b.py 
-### Adding some complexity to the function  logic.
+## lab3b.py - Filtering Even Numbers
+**Objective:** Write a Python function that returns a new list containing only the even numbers from a given list.
+**Instructions:** 
 
-- Fill in the required fields in the comment section.
-- Write a function called `even_numbers` that  takes a list as argument and returns a new list of all the even numbers from the list.
-- If the passed list does not contain any even numbers, return an empty list.
-- Call the function with a list of 8 integer values.
-- Receive the result in a list variable and print the list variable.
-- Run your script to test it.
+- Open the file `lab3b.py` and fill in the required fields in the comment section.
+- Write a function named `even_numbers` that:
+  - Takes a list of integers as an argument.
+  - Uses a `for` loop to iterate through the list.
+  - Checks each element to see if it is even.
+  - Adds even numbers to a new list.
+  - Returns the new list of even numbers.
+  - If no even numbers are found, return an empty list.
+- After defining the function, create a list of 8 integer values outside the function.
+- Call the `even_numbers()` function with that list.
+- Store the result in a new list variable. 
+- Print the resulting list.
+- Run your script to test its functionality
 
 ## Using the main function.
 Remember you learnt in the class that we should use main function as entry point to our program.
