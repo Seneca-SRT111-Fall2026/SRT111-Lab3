@@ -227,7 +227,7 @@ Write a `main()` function that:
 
 - Refer to your lesson slides if you need help on how to use keyword arguments.
 - Run your script to test its functionality.
-**Function calls using keyword arguments**
+- Following are the function calls using keyword arguments
 ```Python
 print(compute(num1=13, num2=45, operation='*'))
 print(compute(operation='/', num2=45, num1=13))
