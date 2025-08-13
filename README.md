@@ -146,7 +146,7 @@ print(result)
      - Takes a list of integers as an argument.
      - Uses a `for` loop to iterate through the list.
      - Checks each element to see if it is even.
-     - Adds even numbers to a new list.
+     - Store even numbers to a new list.
      - Returns the new list of even numbers.
      - If no even numbers are found, return an empty list.
 - After defining the function, create a list of 8 integer values outside the function.
@@ -162,19 +162,27 @@ It serves as the starting point for the program. When the script is executed, th
 In this next example, write a function `sum` that takes two numbers as parameters and returns their sum. You will call `sum` from `main`.
 
 
-### lab4c.py 
--  Fill in the required fields in the comment section.
--  Write a function `sum` that takes two numbers as parameters and returns their sum.
--  Write the `main` functions.
--  In the main function get two numbers from user. Convert the user input to int.
--  Call the `sum` function and pass the two numbers as argument.
--  In the main() function, receive the sum in a variable, and print the sum for the user.
--  Call the main function inside the condition:
- 
-  ``` python
-if __name__ == __main__:
-main()
-```
+### lab3c.py - Using the `main()` Function
+
+**Objective:** Introduce the use of the `main()` function as the entry point of a Python program and practice calling another function from within it.
+
+**Instructions:**
+
+- Open the file `lab3c.py` and fill in the required fields in the comment section:
+
+- Write a function named `sum` that:
+  - Takes two numbers as parameters.
+  - Returns the sum of the two numbers.
+- Write a `main()` function that:
+  - Prompts the user to enter two numbers.
+  - Converts the user input to integers.
+  - Calls the `sum()` function and passes the two numbers as arguments.
+  - Stores the result in a variable.
+  - Prints the result for the user.
+- At the end of your script, include the following condition to ensure the `main()` function runs only when the script is executed directly:
+  ```python
+  if __name__ == "__main__":
+      main()
 Note that the above line checks whether the script is being run directly or being imported as a module. If it's run directly, main() is called.
 - Run your script to test it.
 
