@@ -4,7 +4,7 @@
 # Author:
 # Date:
 # Purpose: Create Simple Functions.
-# Usage: ./lab4a.py
+# Usage: ./lab3a.py
 
 # TO DO 1: Add the docstring
 # @Function definition: add definition here
