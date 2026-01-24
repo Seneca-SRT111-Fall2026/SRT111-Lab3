@@ -1,10 +1,7 @@
-# Add comments before you do anything else.
-
-#!/usr/bin/env python3
 # Author:
 # Date:
 # Purpose: Create Simple Functions.
-# Usage: ./lab3a.py
+# Usage: ./task1.py
 
 # TO DO 1: Add the docstring
 # @Function definition: add definition here
