@@ -1,9 +1,6 @@
-# Add comments before you do anything else.
-
-#!/usr/bin/env python3
 # Author:
 # Date:
 # Purpose: Modify the calcualtor program to use keyword parameters.
-# Usage: ./lab3e.py
+# Usage: ./task5.py
 
 # Follow the instructions from readme.md.
