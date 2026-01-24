@@ -15,7 +15,7 @@ For each task:
    - Your **code** in the editor.  
    - The **terminal output**, including your **username** visible in the terminal.  
 4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
-   - Example: **Task1**, **Task2**, **Task3**, etc.  
+   - Example: **Task 1**, **Task 2**, **Task 3**, etc.  
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **Seneca username**, for example `salim123.pdf`
 6. **Submit the PDF file** as your final lab submission on Blackbaord.
 
@@ -116,7 +116,7 @@ print(result)
 # Output; 20
 ```
 
-## Task1- Simple Function
+## Task 1- Simple Function
 **Objective:** Python function that checks whether any number in a list is even using a loop and conditional logic.
 
 **Instructions:**
@@ -135,7 +135,7 @@ print(result)
 - Prints the boolean variable.
 - Run your script to test it.
 
-## Task2 - Filtering Even Numbers
+## Task 2 - Filtering Even Numbers
 **Objective:** Write a Python function that returns a new list containing only the even numbers from a given list.
 
 **Instructions:** 
@@ -160,7 +160,7 @@ It serves as the starting point for the program. When the script is executed, th
 In this next example, write a function `sum` that takes two numbers as parameters and returns their sum. You will call `sum` from `main`.
 
 
-### Task3.py - Using the `main()` Function
+### Task 3 - Using the `main()` Function
 **Objective:** Introduce the use of the `main()` function as the entry point of a Python program and practice calling another function from within it.
 
 **Instructions:**
@@ -182,7 +182,7 @@ Note that the above line checks whether the script is being run directly or bein
 - Run your script to test it.
 
 
-### Task4 - Writing the complete calculator function using default parameters and positional parameters
+### Task 4 - Writing the complete calculator function using default parameters and positional parameters
 **Objective:** Understand how to use **positional parameters** and **default parameters** in Python functions. Positional parameters are assigned based on the order of arguments passed, while default parameters provide fallback values when arguments are not supplied.
 
 **Instructions:**
@@ -213,7 +213,7 @@ Write a `main()` function that:
 - Run your script to test it.
 
 
-## Task5 - Writing the complete calculator function using keyword parameters
+## Task 5 - Writing the complete calculator function using keyword parameters
 **Objective:** Learn how to use **keyword parameters** in Python functions. Keyword arguments allow you to pass values to function parameters by explicitly naming them, enabling flexibility in the order of arguments.
 
 **Instructions:**
@@ -234,7 +234,7 @@ print(compute(num2=45, num1=13, operation='-'))
 print(compute(num1=13, num2=45, operation='+'))
 print(compute(num1=13, num2=45))  # Uses default operation '+'
 ```
-## Task6 - Using variable number of arguments with `*args`
+## Task 6 - Using variable number of arguments with `*args`
 **Objective:** how to use `*args` to accept a variable number of arguments in a Python function. This allows the function to handle flexible input sizes.
 
 **Instructions:**
@@ -260,7 +260,7 @@ print(get_initials("Olivia", "Ravi", "Chen", "Fatima"))
 #Output: ['AO', 'R', 'C', 'F']  # Case preserved exactly as in input
 ```
 
-### Task7 - Using map, filter and lambda expressions.
+### Task 7 (Optional) - Using map, filter and lambda expressions.
 **Objectives:** "Learn how to use Python’s map(), filter(), and lambda functions to process lists efficiently.
 - Applying a transformation to all elements in a list using map with lambda.
 - Selecting specific elements from a list using filter with lambda.
@@ -304,7 +304,6 @@ square = lambda x: x ** 2  # Usage: square(3) -> 9
     - task4.py
     - task5.py
     - task6.py
-    - task7.py
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
 - Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as **Satisfactory** with a grade of 0, provided the work is satisfactory.
 
