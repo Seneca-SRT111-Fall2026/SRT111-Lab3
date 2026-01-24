@@ -116,12 +116,12 @@ print(result)
 # Output; 20
 ```
 
-## lab3a.py - Simple Function
+## Task 1- Simple Function
 **Objective:** Python function that checks whether any number in a list is even using a loop and conditional logic.
 
 **Instructions:**
 
-- Open the file Lab3a.py and fill in the required fields in the comment section.
+- Open the file task1.py and fill in the required fields in the comment section.
 - Write a function with the name `is_even` that:  
    - Takes a list as a parameter.
    - Uses a `for` loop to iterate over each element of the list.
@@ -135,11 +135,11 @@ print(result)
 - Prints the boolean variable.
 - Run your script to test it.
 
-## lab3b.py - Filtering Even Numbers
+## Task 2 - Filtering Even Numbers
 **Objective:** Write a Python function that returns a new list containing only the even numbers from a given list.
 
 **Instructions:** 
-- Open the file `lab3b.py` and fill in the required fields in the comment section.
+- Open the file `task2.py` and fill in the required fields in the comment section.
 - Write a function named `even_numbers` that:
      - Takes a list of integers as an argument.
      - Uses a `for` loop to iterate through the list.
@@ -160,11 +160,11 @@ It serves as the starting point for the program. When the script is executed, th
 In this next example, write a function `sum` that takes two numbers as parameters and returns their sum. You will call `sum` from `main`.
 
 
-### lab3c.py - Using the `main()` Function
+### Task 3.py - Using the `main()` Function
 **Objective:** Introduce the use of the `main()` function as the entry point of a Python program and practice calling another function from within it.
 
 **Instructions:**
-- Open the file `lab3c.py` and fill in the required fields in the comment section:
+- Open the file `task3.py` and fill in the required fields in the comment section:
 - Write a function named `sum` that:
   - Takes two numbers as parameters.
   - Returns the sum of the two numbers.
@@ -182,11 +182,11 @@ Note that the above line checks whether the script is being run directly or bein
 - Run your script to test it.
 
 
-### lab3d.py - Writing the complete calculator function using default parameters and positional parameters
+### Task 4 - Writing the complete calculator function using default parameters and positional parameters
 **Objective:** Understand how to use **positional parameters** and **default parameters** in Python functions. Positional parameters are assigned based on the order of arguments passed, while default parameters provide fallback values when arguments are not supplied.
 
 **Instructions:**
-- Open the file `lab3d.py` and fill in the required fields in the comment section:
+- Open the file `task4.py` and fill in the required fields in the comment section:
 - Write a function named `compute` that:
   - Takes three parameters:
     - `num1`: the first number
@@ -209,11 +209,11 @@ Write a `main()` function that:
     compute(13,45,'+')
     compute(13,45)  # since only two parameters are passed the default value of symbol should be used.
     ```
-- Call the main function in the conditional statement as shown above in `lab3c`.
+- Call the main function in the conditional statement as shown above in `task4.py.
 - Run your script to test it.
 
 
-## lab3e.py - Writing the complete calculator function using keyword parameters
+## Task 5 - Writing the complete calculator function using keyword parameters
 **Objective:** Learn how to use **keyword parameters** in Python functions. Keyword arguments allow you to pass values to function parameters by explicitly naming them, enabling flexibility in the order of arguments.
 
 **Instructions:**
@@ -234,11 +234,11 @@ print(compute(num2=45, num1=13, operation='-'))
 print(compute(num1=13, num2=45, operation='+'))
 print(compute(num1=13, num2=45))  # Uses default operation '+'
 ```
-## lab3f.py - Using variable number of arguments with `*args`
+## Task 6 - Using variable number of arguments with `*args`
 **Objective:** how to use `*args` to accept a variable number of arguments in a Python function. This allows the function to handle flexible input sizes.
 
 **Instructions:**
-- Open the file `lab3f.py` and fill in the required fields in the comment section:
+- Open the file `task5.py` and fill in the required fields in the comment section:
 - Write a function named `get_initials` that:
   - Uses `*args` to accept a variable number of name inputs.
   - Iterates through each name and extracts the first letter.
@@ -260,7 +260,7 @@ print(get_initials("Olivia", "Ravi", "Chen", "Fatima"))
 #Output: ['AO', 'R', 'C', 'F']  # Case preserved exactly as in input
 ```
 
-### lab3g.py - Using map, filter and lambda expressions.
+### Task 7 - Using map, filter and lambda expressions.
 **Objectives:** "Learn how to use Python’s map(), filter(), and lambda functions to process lists efficiently.
 - Applying a transformation to all elements in a list using map with lambda.
 - Selecting specific elements from a list using filter with lambda.
@@ -298,13 +298,13 @@ square = lambda x: x ** 2  # Usage: square(3) -> 9
 ## Lab 3 Sign-Off
 - Submit a PDF named using your Seneca username, .pdf on Blackbaord.
 - The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
-    - lab3a.py
-    - lab3b.py
-    - lab3c.py
-    - lab3d.py
-    - lab3e.py
-    - lab3f.py
-    - lab3g.py
+    - task1.py
+    - task2.py
+    - task3.py
+    - task4.py
+    - task5.py
+    - task6.py
+    - lab7.py
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
 - Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as **Satisfactory** with a grade of 0, provided the work is satisfactory.
 
