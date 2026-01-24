@@ -17,7 +17,7 @@ For each task:
 4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
    - Example: **Task 1**, **Task 2**, **Task 3**, etc.  
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **Seneca username**, for example `salim123.pdf`
-6. **Submit the PDF file** as your final lab submission on Blackbaord.
+6. **Submit the PDF file** as your final lab submission on Blackboard.
 
 ## INVESTIGATION 1: Functions
 
@@ -154,7 +154,7 @@ print(result)
 - Run your script to test its functionality
 
 ## Using the main function.
-Remember you learnt in the class that we should use main function as entry point to our program.
+Remember you learned in the class that we should use main function as entry point to our program.
 The main() function in Python is a convention rather than a built-in function. It organizes code in a clear, structured way.
 It serves as the starting point for the program. When the script is executed, the code inside the main() function runs first.
 In this next example, write a function `sum` that takes two numbers as parameters and returns their sum. You will call `sum` from `main`.
@@ -217,8 +217,8 @@ Write a `main()` function that:
 **Objective:** Learn how to use **keyword parameters** in Python functions. Keyword arguments allow you to pass values to function parameters by explicitly naming them, enabling flexibility in the order of arguments.
 
 **Instructions:**
-- Open the file `lab3e.py` and fill in the required fields in the comment section:
-- Copy the code from `lab3d.py`.
+- Open the file `task5.py` and fill in the required fields in the comment section:
+- Copy the code from `task4.py`.
 - Modify the `compute()` function so that it uses **keyword parameters** instead of positional parameters when being called.
 - Ensure that:
   - The function definition remains the same.
@@ -296,7 +296,7 @@ square = lambda x: x ** 2  # Usage: square(3) -> 9
 - Print the variable divisible_by_2.
   
 ## Lab 3 Sign-Off
-- Submit a PDF named using your Seneca username, .pdf on Blackbaord.
+- Submit a PDF named using your Seneca username, .pdf on Blackboard.
 - The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
     - task1.py
     - task2.py
