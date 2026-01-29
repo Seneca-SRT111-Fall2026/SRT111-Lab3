@@ -234,7 +234,7 @@ print(compute(num2=45, num1=13, operation='-'))
 print(compute(num1=13, num2=45, operation='+'))
 print(compute(num1=13, num2=45))  # Uses default operation '+'
 ```
-## Task 6 - Using variable number of arguments with `*args`
+## Task 6 - Using variable number of arguments with `*args` (Optional)
 **Objective:** how to use `*args` to accept a variable number of arguments in a Python function. This allows the function to handle flexible input sizes.
 
 **Instructions:**
@@ -259,42 +259,6 @@ print(get_initials("John"))
 print(get_initials("Olivia", "Ravi", "Chen", "Fatima"))
 #Output: ['AO', 'R', 'C', 'F']  # Case preserved exactly as in input
 ```
-
-### Task 7 (Optional) - Using map, filter and lambda expressions.
-**Objectives:** "Learn how to use Python’s map(), filter(), and lambda functions to process lists efficiently.
-- Applying a transformation to all elements in a list using map with lambda.
-- Selecting specific elements from a list using filter with lambda.
-- Understanding how lambda creates quick, anonymous functions for short operations.
-
-**map()** applies a function to all items in an iterable.
-
-```Python
-result = map(lambda x: x * 2, [1, 2, 3])  # Output: [2, 4, 6]
-```
-
-**filter()** selects items from an iterable based on a function that returns True or False.
-
-```Python
-result = filter(lambda x: x > 2, [1, 2, 3, 4])  # Output: [3, 4]
-```
-
-**lambda** creates small, anonymous functions for quick, on-the-fly use.
-
-```Python
-square = lambda x: x ** 2  # Usage: square(3) -> 9
-```
-
-**Example:** For example, comparing map to "putting every item on a conveyor belt to be processed" and filter to "only letting certain items through a quality check gate". 
-
-**Instructions:**
-- Create a variable numbers containing numbers from 2 to 10.
-- Square all elements of this list using map and a lambda function.
-   - Store the result back in numbers.
-- Print the variable numbers.
-- Create a new variable named divisible_by_2.
-- Use filter and a lambda function to select all numbers from numbers that are divisible by 2.
-- Print the variable divisible_by_2.
-  
 ## Lab 3 Sign-Off
 - Submit a PDF named using your Seneca username, .pdf on Blackboard.
 - The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
