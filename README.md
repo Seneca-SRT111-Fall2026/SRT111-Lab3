@@ -194,7 +194,7 @@ Note that the above line checks whether the script is being run directly or bein
     - `operation`: a symbol (`+`, `-`, `*`, `/`) with a default value of `+`
   - Performs the specified operation on the two numbers.
   - Returns the result.
-Write a `main()` function that:
+- Write a `main()` function that:
   - Prompts the user to enter two numbers.
   - Prompts the user to choose an operation (`+`, `-`, `*`, `/`).
   - Calls the `compute()` function using **positional parameters**.
