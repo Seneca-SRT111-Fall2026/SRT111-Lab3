@@ -53,7 +53,7 @@ For every script created in this lab  include the following comment block at the
 - No PDF submission is required for Part A unless otherwise instructed.
 
 
-## Task 1- Simple Function
+### Task 1- Simple Function
 **Objective:** Python function that checks whether any number in a list is even using a loop and conditional logic.
 
 **Instructions:**
@@ -71,7 +71,7 @@ For every script created in this lab  include the following comment block at the
 - Print the Boolean result..
 - Run your script to test it.
 
-## Task 2 - Filtering Even Numbers
+### Task 2 - Filtering Even Numbers
 **Objective:** Write a Python function that uses a loop and a conditional statement to create a new list containing only the even numbers from a given list.
 
 **Instructions:** 
@@ -90,7 +90,7 @@ For every script created in this lab  include the following comment block at the
 - Print the resulting list.
 - Run your script to test its functionality
 
-## Task 3 - Using the `main()` Function
+### Task 3 - Using the `main()` Function
 **Objective:** Introduce the use of the `main()` function as the entry point of a Python program and practice calling another function from within it.
 
 **Instructions:**
@@ -118,7 +118,7 @@ Before You Begin:
 - Open your local Git repository **`SRT111F2026`** on your computer.
 - Create a new folder named **`Lab03`** inside the repository.
 - Open the **`Lab03`** folder in VS Code.
-- Create all Python files for this lab (`task5.py`, `t) inside the **`Lab02`** folder.
+- Create all Python files for this lab (`task4.py`, `task5.py`, `task6.py`) inside the **`Lab03`** folder.
 - For each task:
    - Run the script using the VS Code terminal
    - Take a screenshot that clearly shows:  
@@ -126,36 +126,37 @@ Before You Begin:
       - The terminal output, including your username visible in the terminal.  
    - Insert the screenshots into a Word document under the heading. You will export this word document to PDF and submit it on Blackboard.
 
-The tasks in this section focus on loop constructs, input validation, and loop control techniques in Python.
-
 ### Task 4 - Writing the complete calculator function using default parameters and positional parameters
-**Objective:** Understand how to use **positional parameters** and **default parameters** in Python functions. Positional parameters are assigned based on the order of arguments passed, while default parameters provide fallback values when arguments are not supplied.
+**Objective:** Practice defining a function with multiple parameters, using a default parameter, and passing arguments using positional arguments..
 
 **Instructions:**
-- Open the file `task4.py` and fill in the required fields in the comment section:
-- Write a function named `compute` that:
+- Create the file `task4.py` and fill in the required fields in the comment section:
+- Write a function named `calculate` that:
   - Takes three parameters:
     - `num1`: the first number
     - `num2`: the second number
     - `operation`: a symbol (`+`, `-`, `*`, `/`) with a default value of `+`
-  - Performs the specified operation on the two numbers.
-  - Returns the result.
+  - Performs the specified operation on `num1` and `num2`.
+  - Returns the calculated result.
 - Write a `main()` function that:
   - Prompts the user to enter two numbers.
   - Prompts the user to choose an operation (`+`, `-`, `*`, `/`).
   - Calls the `compute()` function using **positional parameters**.
-  - Stores the result in a variable.
+  - Stores the returned result in a variable
   - Prints the result for the user.
 
 - Demonstrate the function with the following calls:
     ``` python
-    compute(13,45,'*')
-    compute(13,45,'/')
-    compute(13,45,'-')
-    compute(13,45,'+')
-    compute(13,45)  # since only two parameters are passed the default value of symbol should be used.
+    print(compute(13,45,'*'))
+    print(compute(13,45,'/'))
+    print(compute(13,45,'-'))
+    print(compute(13,45,'+'))
+    print(compute(13,45))  # since only two parameters are passed the default value of symbol should be used.
     ```
-- Call the main function in the conditional statement as shown above in `task4.py.
+- Include the following condition at the end of your program to call the main() function:
+  ```python
+  if __name__ == "__main__":
+      main()
 - Run your script to test it.
 
 
