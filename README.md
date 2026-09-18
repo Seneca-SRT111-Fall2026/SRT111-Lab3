@@ -32,7 +32,6 @@ For every script created in this lab  include the following comment block at the
 # Author: Your Name
 # Date: YYYY-MM-DD
 # Purpose: Brief description of what the program does.
-# Usage: python ./task1.py
 ```
 
 ---
