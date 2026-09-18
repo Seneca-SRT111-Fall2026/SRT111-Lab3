@@ -160,20 +160,15 @@ Before You Begin:
 - Run your script to test it.
 
 
-## Task 5 - Writing the complete calculator function using keyword parameters
-**Objective:** Learn how to use **keyword parameters** in Python functions. Keyword arguments allow you to pass values to function parameters by explicitly naming them, enabling flexibility in the order of arguments.
+## Task 5 - Calculator Function with Keyword Arguments
+**Objective:** Practice using **keyword arguments** when calling a function and understand how keyword arguments allow arguments to be passed in a different order
 
 **Instructions:**
-- Open the file `task5.py` and fill in the required fields in the comment section:
-- Copy the code from `task4.py`.
-- Modify the `compute()` function so that it uses **keyword parameters** instead of positional parameters when being called.
-- Ensure that:
-  - The function definition remains the same.
-  - All function calls explicitly name the parameters (e.g., `compute(num1=13, num2=45, operation='*')`).
-  - You demonstrate that keyword arguments allow calling the function with parameters in any order.
-- Refer to your lesson slides if you need help on how to use keyword arguments.
-- Run your script to test its functionality.
-- Following are the function calls using keyword arguments
+- Create the file `task5.py`.
+- Copy your `calculate()` function and `main()` function from `task4.py`.
+- Modify the `calculate()` function so that it uses **keyword parameters** instead of positional parameters when being called.
+- Ensure that the function definition remains the same.
+- Demonstrate that keyword arguments allow the arguments to be provided in a different order by using the following function calls in the `main()`:
 ```Python
 print(compute(num1=13, num2=45, operation='*'))
 print(compute(operation='/', num2=45, num1=13))
@@ -181,18 +176,22 @@ print(compute(num2=45, num1=13, operation='-'))
 print(compute(num1=13, num2=45, operation='+'))
 print(compute(num1=13, num2=45))  # Uses default operation '+'
 ```
-## Task 6 - Using variable number of arguments with `*args` (Optional)
+- Run your program and verify that all function calls produce the expected results.
+- Note: Refer to your course notes or lesson slides if you need help with keyword arguments
+  
+### Task 6 - Using variable number of arguments with `*args`
 **Objective:** how to use `*args` to accept a variable number of arguments in a Python function. This allows the function to handle flexible input sizes.
 
 **Instructions:**
-- Open the file `task5.py` and fill in the required fields in the comment section:
+- Create the file `task5.py`.
 - Write a function named `get_initials` that:
-  - Uses `*args` to accept a variable number of name inputs.
-  - Iterates through each name and extracts the first letter.
-  - Collects these first letters into a list.
+  - Uses `*args` to accept a variable number of names.
+  - Uses a for loop to process each name.
+  - Extracts the first character from each name.
+  - Stores the first characters in a list.
   - Returns the list of initials.
 - Call the `get_initials()` function with the names "Samuel", "Ravi", "Chen", "Fatima".
-- Store the result in a list variable.
+- Store the returned values in variables and print the results.
 - Print the result.
 - Run your script to test its functionality.
 **Sample Output**
@@ -206,15 +205,14 @@ print(get_initials("John"))
 print(get_initials("Olivia", "Ravi", "Chen", "Fatima"))
 #Output: ['AO', 'R', 'C', 'F']  # Case preserved exactly as in input
 ```
-## Lab 3 Sign-Off
-- Submit a PDF named using your Seneca username, .pdf on Blackboard.
-- The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
-    - task1.py
-    - task2.py
-    - task3.py
-    - task4.py
-    - task5.py
-    - task6.py
+---
+## Part B Sign-Off
+- commit and push your Lab02 folder to GitHub repo `SRT111F2026`.
+- Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackbaord*.
+- Your PDF must include:
+    - Task 4 screenshot(s)
+    - Task 5 screenshot(s)
+    - Task 6 screenshot(s)
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
-- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as **Satisfactory** with a grade of 0, provided the work is satisfactory.
+- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as "**Satisfactory**" with a grade of 0, provided the work is satisfactory.
 
