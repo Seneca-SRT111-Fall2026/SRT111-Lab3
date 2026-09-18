@@ -110,6 +110,23 @@ For every script created in this lab  include the following comment block at the
       main()
 - Run your script to test it.
 
+---
+
+## Part B - Take-Home Lab [60% marks]
+Complete the following tasks independently after the scheduled lab using VS Code.
+Before You Begin:
+- Open your local Git repository **`SRT111F2026`** on your computer.
+- Create a new folder named **`Lab03`** inside the repository.
+- Open the **`Lab03`** folder in VS Code.
+- Create all Python files for this lab (`task5.py`, `t) inside the **`Lab02`** folder.
+- For each task:
+   - Run the script using the VS Code terminal
+   - Take a screenshot that clearly shows:  
+      - Your code in the editor.  
+      - The terminal output, including your username visible in the terminal.  
+   - Insert the screenshots into a Word document under the heading. You will export this word document to PDF and submit it on Blackboard.
+
+The tasks in this section focus on loop constructs, input validation, and loop control techniques in Python.
 
 ### Task 4 - Writing the complete calculator function using default parameters and positional parameters
 **Objective:** Understand how to use **positional parameters** and **default parameters** in Python functions. Positional parameters are assigned based on the order of arguments passed, while default parameters provide fallback values when arguments are not supplied.
