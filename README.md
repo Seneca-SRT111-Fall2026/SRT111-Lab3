@@ -11,7 +11,7 @@
 In this lab, you will design, implement, and test Python programs that use functions. You will practice defining functions, passing arguments, returning values, using loops and conditional statements, and organizing a program using a main() function.
 
 The lab is divided into two components:
-- **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading. ).
+- **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading).
 - **Part B: Take-Home Lab** (can be completed independently after thescheduled class).
 
 ## Academic Integrity and Use of AI
