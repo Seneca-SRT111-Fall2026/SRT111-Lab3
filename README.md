@@ -78,7 +78,7 @@ For every script created in this lab  include the following comment block at the
 - Create the file `task2.py`.
 - Write a function named `even_numbers` that:
      - Takes a list of integers as a parameter.
-     - Creates an empty list to store the even numbers
+     - Creates an empty list to store the even numbers.
      - Uses a `for` loop to iterate through the list.
      - Checks each element to see if it is even.
      - Store even numbers to a new list.
@@ -90,32 +90,24 @@ For every script created in this lab  include the following comment block at the
 - Print the resulting list.
 - Run your script to test its functionality
 
-## Using the main function.
-Remember you learned in the class that we should use main function as entry point to our program.
-The main() function in Python is a convention rather than a built-in function. It organizes code in a clear, structured way.
-It serves as the starting point for the program. When the script is executed, the code inside the main() function runs first.
-In this next example, write a function `sum` that takes two numbers as parameters and returns their sum. You will call `sum` from `main`.
-
-
-### Task 3 - Using the `main()` Function
+## Task 3 - Using the `main()` Function
 **Objective:** Introduce the use of the `main()` function as the entry point of a Python program and practice calling another function from within it.
 
 **Instructions:**
-- Open the file `task3.py` and fill in the required fields in the comment section:
-- Write a function named `sum` that:
+- Create the file `task3.py`.
+- Write a function named `add_numbers` that:
   - Takes two numbers as parameters.
-  - Returns the sum of the two numbers.
+  - Calculates and returns thir sum.
 - Write a `main()` function that:
   - Prompts the user to enter two numbers.
-  - Converts the user input to integers.
-  - Calls the `sum()` function and passes the two numbers as arguments.
-  - Stores the result in a variable.
+  - Converts the input values to integers.
+  - Calls the `add_numbers()` function and passes the two numbers as arguments.
+  - Stores the returned result in a variable.
   - Prints the result for the user.
 - At the end of your script, include the following condition to ensure the `main()` function runs only when the script is executed directly:
   ```python
   if __name__ == "__main__":
       main()
-Note that the above line checks whether the script is being run directly or being imported as a module. If it's run directly, main() is called.
 - Run your script to test it.
 
 
