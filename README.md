@@ -8,7 +8,7 @@
 
 </div>
 
-In this lab, you will design, implement, and test Python programs that use functions.
+In this lab, you will design, implement, and test Python programs that use functions. You will practice defining functions, passing arguments, returning values, using loops and conditional statements, and organizing a program using a main() function.
 
 The lab is divided into two components:
 - **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading. ).
@@ -22,9 +22,17 @@ You may use AI tools (e.g., ChatGPT, Copilot, Gemini) to help explain concepts, 
 Submitting copied, shared, or AI-generated solutions as your own work may result in a grade of zero and may be handled according to the College Academic Integrity Policy.
 
 ## Lab Objectives
-- To be able to write the programs using functions.
-- Reinforce the concept of conditions and loops.
-- Build logic to solve a computational problem.
+
+By the end of this lab, you should be able to:
+
+- Define and call Python functions.
+- Pass arguments to functions and return values from functions.
+- Use conditional statements and loops within functions.
+- Use a `main()` function to organize a Python program.
+- Use positional arguments, default parameters, and keyword arguments.
+- Apply functions and programming logic to solve a computational problem.
+- Test and debug Python programs.
+
 
  ## Required Comment Header
 For every script created in this lab  include the following comment block at the top of the file/cell. 
@@ -35,147 +43,50 @@ For every script created in this lab  include the following comment block at the
 ```
 
 ---
-## Part A - In-Class Lab [40% marks]
+## Part A - In-Class Lab [40% of Lab Marks]
 - Complete all assigned in-class tasks during your scheduled lab.
 - This part can be completed in `Jupyter Lab` or `VS Code`. You have choice. I recommend using `Jupyter Lab`.
-  - If you are using Jupyter Lab, then please create a single notebook file called `Lab2.ipynb` and complete each task in a unique cell. 
+  - If you are using Jupyter Lab, then please create a single notebook file called `Lab3.ipynb` and complete each task in a unique cell. 
   - If you are using `VS Code` then,  just follow the instructions for each task and create .py files.
 - Demonstrate your completed work to the professor before leaving the lab.
 - The professor may ask you to explain portions of your code.
 - No PDF submission is required for Part A unless otherwise instructed.
-- Each task carries 1.0 marks.
 
-## INVESTIGATION 1: Functions
-
-A function is a block of code that performs a specific task. Functions help organize code, make it reusable, and improve readability. They allow us to avoid writing the same code repeatedly. For example, we’ve used the len() function to determine the length of a string. Since measuring the length of a sequence (string or list) is a frequent task, it makes sense to have a function that performs this action whenever needed.
-
-Functions are among the most fundamental tools for reusing code in Python. They also introduce us to the concept of program design. You should use functions when you anticipate reusing a block of code multiple times. By defining a function, you can call the same code without rewriting it, which helps in creating more complex Python scripts.
-Let's see how to create our own functions.
-
-### Defining a Function
-
-To define a function in Python, use the `def` keyword followed by the function name and parentheses (). Make sure the name is relevant and does not conflict with built-in Python functions like round or print.
-
-Next, include any arguments your function needs inside the parentheses, separated by commas. These arguments are the inputs for your function, and you can reference them within the function. After the parentheses, add a colon :.
-
-On the next line, write the indented block of code that forms the body of the function.
-
-Inside the body of the function, it is good practice to start with a docstring — a brief description of what the function does. This helps you (and others) understand the function later, especially when working in teams.
-
-After the docstring, write the logic and code of your function. Functions can also return a value or multiple values (packed as a tuple).
-
-#### Syntax
-
-```python
-def function_name(parameters):
-    # Code block
-    return value  # Optional
-```
-#### Example
-
-```python
-def greet(name):
-    print(f"Hello, {name}!")
-```
-
-#### Explanation
-
-- `def`: Keyword to start the function definition.
-- `function_name`: The name of the function.
-- `parameters`: Variables passed to the function (optional).
-- `return`: Ends the function and optionally returns a value.
-
-### Calling a Function
-
-To execute a function, call it by its name followed by parentheses, optionally including arguments. If you forget the parenthesis (), it will simply display the statement that `greet` is a function.
-
-#### Example
-```python
-greet("Alice")
-Output: Hello, Alice!
-```
-
-### Function Parameters
-
-Functions can accept parameters to make them more flexible.
-
-#### Example
-
-```python
-def add(a, b):
-    return a + b
-
-result = add(3, 5)
-print(result)
-# Output: 8
-```
-
-### Default Parameters
-
-You can define default parameter values in a function.
-
-#### Example
-
-```python
-def greet(name="Guest"):
-    print(f"Hello, {name}!")
-
-greet()
-# Output: Hello, Guest!
-
-greet("Bob")
-# Output: Hello, Bob!
-```
-
-### Return Values
-
-Functions can return values using the `return` statement.
-
-#### Example
-
-```python
-def multiply(a, b):
-    return a * b
-
-result = multiply(4, 5)
-print(result)
-# Output; 20
-```
 
 ## Task 1- Simple Function
 **Objective:** Python function that checks whether any number in a list is even using a loop and conditional logic.
 
 **Instructions:**
 
-- Open the file task1.py and fill in the required fields in the comment section.
-- Write a function with the name `is_even` that:  
-   - Takes a list as a parameter.
+- Create a file named `task1.py`.
+- Write a function with the name `has_even_number` that:  
+   - Takes a `list` as a parameter.
    - Uses a `for` loop to iterate over each element of the list.
    - Uses an `if` statement to check if an element is even.
-   - Returns `True` if any number in the list is even. As soon as you find the first even element, `break` out of the loop.
+   - Returns `True` if any number in the list is even.
    - Returns `False` otherwise.
-   - As soon as you find the first even element, `break` out of the loop.
-- Outside and after the  `is_even` function, creates a list of 6 integer values.
-- Calls the `is_even()` function with that list.
-- Stores the result in a boolean variable.
-- Prints the boolean variable.
+- Outside and after the  `has_even_number` function, creates a list of 6 integer values.
+- Calls the `has_even_number()` function with that list.
+- Store the returned Boolean value in a variable.
+- Print the Boolean result..
 - Run your script to test it.
 
 ## Task 2 - Filtering Even Numbers
-**Objective:** Write a Python function that returns a new list containing only the even numbers from a given list.
+**Objective:** Write a Python function that uses a loop and a conditional statement to create a new list containing only the even numbers from a given list.
 
 **Instructions:** 
-- Open the file `task2.py` and fill in the required fields in the comment section.
+- Create the file `task2.py`.
 - Write a function named `even_numbers` that:
-     - Takes a list of integers as an argument.
+     - Takes a list of integers as a parameter.
+     - Creates an empty list to store the even numbers
      - Uses a `for` loop to iterate through the list.
      - Checks each element to see if it is even.
      - Store even numbers to a new list.
      - Returns the new list of even numbers.
      - If no even numbers are found, return an empty list.
 - After defining the function, create a list of 8 integer values outside the function.
-- Call the `even_numbers()` function with that list.
-- Store the result in a new list variable. 
+- Call the `even_numbers()` function and pass the list as an argument.
+- Store the returned list in a variable
 - Print the resulting list.
 - Run your script to test its functionality
 
