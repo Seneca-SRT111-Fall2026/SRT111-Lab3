@@ -1,23 +1,50 @@
-# Lab 3
-In this lab, you will create six simple Python scripts. All scripts must be written in GitHub Codespaces. This lab focuses on writing functions.
-You will explore how to define and use functions in Python to solve problems more efficiently. Through hands-on practice, you'll learn how functions improve code organization, readability, and reusability — essential skills for building scalable programs.
+<div align="center">
+
+<h1>SRT111 Lab 3 - Fall 2026</h1>
+
+<strong>Prepared by:</strong> Tiayyba Riaz  
+<strong>Total Marks: 10 </strong>  
+<strong>Percentage Towards Final Grade: 2% </strong>  
+
+</div>
+
+In this lab, you will design, implement, and test Python programs that use functions.
+
+The lab is divided into two components:
+- **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading. ).
+- **Part B: Take-Home Lab** (can be completed independently after thescheduled class).
+
+## Academic Integrity and Use of AI
+
+This lab is intended to assess your individual understanding of Python programming.
+You may use AI tools (e.g., ChatGPT, Copilot, Gemini) to help explain concepts, syntax, or error messages. However, all submitted code must be your own work, and you must be able to explain your solution if asked by the professor.
+
+Submitting copied, shared, or AI-generated solutions as your own work may result in a grade of zero and may be handled according to the College Academic Integrity Policy.
 
 ## Lab Objectives
 - To be able to write the programs using functions.
 - Reinforce the concept of conditions and loops.
 - Build logic to solve a computational problem.
 
-## Submission Instructions
-For each task:
-1. **Write the script** in Codespaces.  
-2. **Run the script** from the **terminal**.  
-3. **Take a screenshot** that clearly shows:  
-   - Your **code** in the editor.  
-   - The **terminal output**, including your **username** visible in the terminal.  
-4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
-   - Example: **Task 1**, **Task 2**, **Task 3**, etc.  
-5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **Seneca username**, for example `salim123.pdf`
-6. **Submit the PDF file** as your final lab submission on Blackboard.
+ ## Required Comment Header
+For every script created in this lab  include the following comment block at the top of the file/cell. 
+```Python
+# Author: Your Name
+# Date: YYYY-MM-DD
+# Purpose: Brief description of what the program does.
+# Usage: python ./task1.py
+```
+
+---
+## Part A - In-Class Lab [40% marks]
+- Complete all assigned in-class tasks during your scheduled lab.
+- This part can be completed in `Jupyter Lab` or `VS Code`. You have choice. I recommend using `Jupyter Lab`.
+  - If you are using Jupyter Lab, then please create a single notebook file called `Lab2.ipynb` and complete each task in a unique cell. 
+  - If you are using `VS Code` then,  just follow the instructions for each task and create .py files.
+- Demonstrate your completed work to the professor before leaving the lab.
+- The professor may ask you to explain portions of your code.
+- No PDF submission is required for Part A unless otherwise instructed.
+- Each task carries 1.0 marks.
 
 ## INVESTIGATION 1: Functions
 
