@@ -104,10 +104,7 @@ For every script created in this lab  include the following comment block at the
   - Calls the `add_numbers()` function and passes the two numbers as arguments.
   - Stores the returned result in a variable.
   - Prints the result for the user.
-- At the end of your script, include the following condition to ensure the `main()` function runs only when the script is executed directly:
-  ```python
-  if __name__ == "__main__":
-      main()
+- Add a call to the `main()` function.
 - Run your script to test it.
 
 ---
@@ -131,7 +128,7 @@ Before You Begin:
 
 **Instructions:**
 - Create the file `task4.py` and fill in the required fields in the comment section:
-- Write a function named `calculate` that:
+- Write a function named `compute` that:
   - Takes three parameters:
     - `num1`: the first number
     - `num2`: the second number
@@ -153,10 +150,7 @@ Before You Begin:
     print(compute(13,45,'+'))
     print(compute(13,45))  # since only two parameters are passed the default value of symbol should be used.
     ```
-- Include the following condition at the end of your program to call the main() function:
-  ```python
-  if __name__ == "__main__":
-      main()
+- Add a call to the `main()` function.
 - Run your script to test it.
 
 
