@@ -141,7 +141,6 @@ Before You Begin:
   - Calls the `compute()` function using **positional parameters**.
   - Stores the returned result in a variable
   - Prints the result for the user.
-
 - Demonstrate the function with the following calls:
     ``` python
     print(compute(13,45,'*'))
