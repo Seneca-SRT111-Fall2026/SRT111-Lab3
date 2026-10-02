@@ -12,7 +12,7 @@ In this lab, you will design, implement, and test Python programs that use funct
 
 The lab is divided into two components:
 - **Part A: In-Class Lab** (must be completed during the scheduled lab period and demonstrated to the professor for grading).
-- **Part B: Take-Home Lab** (can be completed independently after thescheduled class).
+- **Part B: Take-Home Lab** (can be completed independently after thes cheduled class).
 
 ## Academic Integrity and Use of AI
 
@@ -97,7 +97,7 @@ For every script created in this lab  include the following comment block at the
 - Create the file `task3.py`.
 - Write a function named `add_numbers` that:
   - Takes two numbers as parameters.
-  - Calculates and returns thir sum.
+  - Calculates and returns their sum.
 - Write a `main()` function that:
   - Prompts the user to enter two numbers.
   - Converts the input values to integers.
@@ -176,7 +176,7 @@ print(compute(num1=13, num2=45))  # Uses default operation '+'
 **Objective:** how to use `*args` to accept a variable number of arguments in a Python function. This allows the function to handle flexible input sizes.
 
 **Instructions:**
-- Create the file `task5.py`.
+- Create the file `task6.py`.
 - Write a function named `get_initials` that:
   - Uses `*args` to accept a variable number of names.
   - Uses a for loop to process each name.
@@ -196,12 +196,12 @@ print(get_initials("John"))
 #Output: ['J']
 
 print(get_initials("Olivia", "Ravi", "Chen", "Fatima"))
-#Output: ['AO', 'R', 'C', 'F']  # Case preserved exactly as in input
+#Output: ['O', 'R', 'C', 'F']  # Case preserved exactly as in input
 ```
 ---
 ## Part B Sign-Off
-- commit and push your Lab02 folder to GitHub repo `SRT111F2026`.
-- Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackbaord*.
+- commit and push your Lab03 folder to GitHub repo `SRT111F2026`.
+- Submit a PDF named using your Seneca username, **<your-username>.pdf** on *Blackboard*.
 - Your PDF must include:
     - Task 4 screenshot(s)
     - Task 5 screenshot(s)
