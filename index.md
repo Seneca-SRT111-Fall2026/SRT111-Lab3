@@ -158,8 +158,8 @@ Before You Begin:
 
 **Instructions:**
 - Create the file `task5.py`.
-- Copy your `calculate()` function and `main()` function from `task4.py`.
-- Modify the `calculate()` function so that it uses **keyword parameters** instead of positional parameters when being called.
+- Copy your `compute()` function and `main()` function from `task4.py`.
+- Modify the calls to `compute()` function so that it uses **keyword parameters** instead of positional parameters when being called.
 - Ensure that the function definition remains the same.
 - Demonstrate that keyword arguments allow the arguments to be provided in a different order by using the following function calls in the `main()`:
 ```Python
